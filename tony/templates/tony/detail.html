@@ -1,0 +1,61 @@
+{%extends 'tony/base.html'%}
+{%block title%}Songs{%endblock%}
+
+{%block content%}
+
+<div class="container-fluid">
+    <div class="row">
+        <!--Album information-->
+        <div class="col-sm-3">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <img src="{{album.album_cover.url}}" class="img img-responsive" alt="" style="height:200px; width:80%;">
+                    <div class="caption">
+                        <h5>{{album.album_name}}</h5>
+                        <h5>{{album.album_type}}</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Song info-->
+        <div class="col-sm-9">
+            <ul class="nav nav-pills">
+                <li class="active"><a href="">Songs</a></li>
+                <li><a href="{%url 'tony:create-song' album.id%}">Add Song</a></li>
+            </ul>
+            <div class="panel panel-success" style="margin:3px; border-radius:15px; border:2px;">
+                <div class="panel-body">
+                    <h3 class="text-info">Songs</h3>
+                    <h4 class="text-danger text-center">{%if message%}{{message}}{%endif%}</h4>
+                    <hr>
+                    <table class="table table-info">
+                        <thead>
+                        <th>Song name</th>
+                        <th>Audio</th>
+                        <th>Favourite</th>
+                        <th>Action</th>
+                        </thead>
+                        <tbody>
+                        {%if album.song_set%}
+                            {%for song in album.song_set.all%}
+                                <tr>
+                                    <td>{{song.song_name}}</td>
+                                    <td><a href="{{song.song_audio.url}}" class="btn btn-secondary btn-sm" target="_blank"><i class="fas fa-play"></i></a></td>
+                                    <td><a href="" class="btn btn-success btn-sm"><i class="fas fa-star"></i> </a> </td>
+                                    <td>
+                                        <a href="{%url 'tony:song-update' album.id%}" class="btn btn-info btn-sm"><i class="fas fa-edit"></i> </a>
+                                        <a href="{%url 'tony:song-delete' album.id song.id%}" class="btn btn-danger btn-sm"><i class="fas fa-trash"></i> </a>
+                                    </td>
+                                </tr>
+                            {%endfor%}
+                        {%endif%}
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+{%endblock%}
