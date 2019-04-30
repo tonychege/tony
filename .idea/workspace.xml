@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0939848f-4a54-4027-960a-1edd656c7e2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tony/templates/tony/confirm_delete.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../projectschool/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tony/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/tony/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tony/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tony/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/tony/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tony/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/tony/templates/registration/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tony/templates/tony/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/tony/templates/tony/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tony/templates/tony/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tony/templates/tony/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tony/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/tony/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -186,38 +176,13 @@
             <path>
               <item name="Music" type="b2602c69:ProjectViewProjectNode" />
               <item name="Music" type="462c0819:PsiDirectoryNode" />
-              <item name="MUSIC" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Music" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Music" type="462c0819:PsiDirectoryNode" />
               <item name="tony" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Music" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Music" type="462c0819:PsiDirectoryNode" />
-              <item name="tony" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Music" type="b2602c69:ProjectViewProjectNode" />
               <item name="Music" type="462c0819:PsiDirectoryNode" />
               <item name="tony" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Music" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Music" type="462c0819:PsiDirectoryNode" />
-              <item name="tony" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="registration" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Music" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Music" type="462c0819:PsiDirectoryNode" />
-              <item name="tony" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="tony" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -274,7 +239,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4955947" visible="true" weight="0.17261904" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4955947" visible="true" weight="0.17261904" />
       <window_info id="Structure" order="1" sideWeight="0.50440526" side_tool="true" weight="0.17113096" />
       <window_info id="Favorites" order="2" sideWeight="0.50440526" side_tool="true" weight="0.17113096" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -285,7 +250,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32850242" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32850242" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49702382" visible="true" weight="0.28341386" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49702382" visible="true" weight="0.28341386" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5029762" side_tool="true" weight="0.2689211" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32850242" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
